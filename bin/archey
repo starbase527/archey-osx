@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # archey-osx 1.6.1_starbase527 (https://github.com/starbase527/archey-osx/)
 # Fored from: https://github.com/obihann/archey-osx
