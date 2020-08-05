@@ -81,7 +81,7 @@ if [[ "${opt_offline}" = f ]]; then
             ip="$line"
         done < "$ipfile"
     else
-        ip=$(curl -sS https://eth0.me)
+        ip=$(curl -sS whatismyip.akamai.com)
         echo $ip > "$ipfile"
     fi
 fi
